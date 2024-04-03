@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+      - test-ruby-upstream
+  workflow_dispatch:
 
 jobs:
   benchmark:
